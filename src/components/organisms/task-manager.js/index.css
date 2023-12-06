@@ -1,0 +1,59 @@
+h1 {
+  margin-bottom: 50px;
+}
+
+input {
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #ccd1d1;
+  border-radius: 8px;
+  background-color: #f2f4f4;
+}
+
+ul {
+  margin-top: 40px;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  min-height: 40px;
+  margin-bottom: 30px;
+}
+
+.edit-input {
+  min-width: 240px;
+  max-width: 240px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: bold;
+}
+
+button {
+  width: 100px;
+  padding: 10px;
+  margin-left: 20px;
+  border: none;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+}
+
+.add-button {
+  background-color: #566573;
+}
+
+.edit-button {
+  background-color: #3498db;
+}
+
+.save-button {
+  background-color: #58d68d;
+}
+
+.delete-button {
+  background-color: #e74c3c;
+}
